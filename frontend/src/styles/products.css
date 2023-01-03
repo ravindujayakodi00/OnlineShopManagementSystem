@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap');
+
+.navbar {
+  margin-left: 15%;
+}
+.navbar-brand {
+  font-family: 'Fredoka One', sans-serif;
+  font-size: 35px !important;
+  font-weight: bold;
+}
+.navbar-nav {
+  margin-left: 30%;
+}
+.nav-link {
+  margin-right: 30px;
+  font-family: 'Ubuntu';
+}
+.dropdown-item {
+  font-family: 'Ubuntu';
+}
+.btn {
+  width: 100px;
+  font-family: 'Ubuntu';
+}
+.blogbtn {
+  width: 120px;
+}
+.navbar-collapse {
+    margin-right: 5%;
+}
+
+/* top section */
+.decore-img {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+
+.top-para {
+    text-align: center;
+    position: relative;
+    margin-top: 8%;
+    padding: 0 10% 0;
+}
+.top-para h6 {
+    color: #DF6951;
+    font-family: 'Poppins';
+}
+.top-para h1 {
+    font-family: 'Volkhov', serif;
+    font-size: 80px;
+}
+.viewAll {
+    width: 250px;
+    background-color: #5F6F94 !important;
+    border-color: #5F6F94 !important;
+    border-radius: 12px !important;
+    font-family: 'Poppins';
+}
+.viewAll:hover {
+    background-color: #6378a9 !important;
+
+}
+
+@media (max-width:900px) {
+    .top-para h1  {
+     font-size: 50px;
+    }
+  
+  }
+
+.formWrap {
+  margin: 5% 15%;
+  background-color: #e9ebef;
+}  
+
+.formWidth {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+  align-content: center;
+  font-weight: bold;
+}
+.form-control {
+  margin-bottom: 20px;
+}
+.addnewh1 {
+  text-align: center;
+}
+.addnewbtn {
+  width: 200px;
+  text-align: center;
+  margin-right: 10px;
+}
+.card {
+  margin-right: 10px;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  width: 240px !important;
+  height: 350px !important;
+  border-radius: 12px !important;
+}
+.card-title {
+  font-family: 'Poppins';
+  font-size: 15px !important;
+}
+.card img {
+  margin-top: 20px;
+  align-self: center;
+}
+.container {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+small {
+  font-size: 10px !important;
+}
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+.card a{
+  text-decoration: none;
+  color: black;
+}
+.card a:hover {
+  color: #5F6F94;
+}
+
+.addnew {
+  width: 200px;
+  margin-left: 80%;
+  margin-top: 50px;
+}
+.productDetails {
+  margin-left: 12%;
+  margin-top: 50px;
+  margin-right: 5%;
+}
+/* more details page */
+.productImage {
+  margin-left: 30%;
+  width: 40%;
+  height: 20%;
+}
+.details-section {
+  margin-top: 5%;
+  font-family: 'Fredoka One', sans-serif;
+}
+.section1 {
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+.section2 {
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+}
+.successmsg {
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+}
+
+/* searchbar */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+
+.search {
+
+  width: 100%;
+
+  position: relative;
+
+  display: flex;
+
+}
+
+
+
+.searchTerm {
+
+  margin-left: 15%;
+
+  margin-bottom: 50px;
+
+  width: 60%;
+
+  border: 3px solid #0b434a;
+
+  padding: 5px;
+
+  height: 50px;
+
+  border-radius: 5px 5px 5px 5px;
+
+  outline: none;
+
+  color: #030303;
+
+}
+
+
+
+.searchTerm:focus{
+
+  color: #191b1c;
+
+}
+
+
+
+/*Resize the wrap to see the search bar change!*/
+
+.wrap{
+
+  width: 30%;
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+}
