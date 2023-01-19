@@ -21,7 +21,7 @@ const AllProducts = () => {
     },[dispatch])
 
     return (
-        <section>
+        <section >
         <div className="All">
             <Navbar/>
             <input className="searchTerm" type="text" placeholder="Search Products..." onChange={(e) => setSearch(e.target.value)}/>                       
